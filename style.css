@@ -175,6 +175,7 @@ h1 {
   font-size: 8.3rem;
   font-family: "Arvo", serif;
   background-image: linear-gradient(rgb(0, 255, 242), rgb(15, 7, 124));
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -184,6 +185,7 @@ h1 {
   font-size: 4.5rem;
   background-image: linear-gradient(rgb(0, 255, 242), rgb(19, 8, 163));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0.3em;
   margin-bottom: 2.8em;
@@ -295,9 +297,9 @@ a:hover span:nth-child(4) {
 }
 .aboutme h1 {
   font-size: 7rem;
-  /* color: #00e1ff; */
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 255, 255));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1em;
   text-align: center;
@@ -361,6 +363,7 @@ a:hover span:nth-child(4) {
   font-size: 7rem;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 255, 255));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1em;
 }
@@ -459,6 +462,7 @@ a:hover span:nth-child(4) {
 .sites h2 {
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 255, 255));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4.5rem;
   margin-top: 2.5em;
@@ -488,6 +492,7 @@ a:hover span:nth-child(4) {
   font-size: 7rem;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 255, 255));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
@@ -604,6 +609,7 @@ a:hover span:nth-child(4) {
   font-family: "Arvo", serif;
   background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 255, 234));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1em;
 }
